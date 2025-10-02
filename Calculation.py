@@ -6,6 +6,8 @@ def add_function(a,b):
 def divide_function(a,b):
     if not int(a) or not int(b):
         return ValueError('NO NUMBERS, TRY AGAIN')
+    if b==0:
+        return ValueError ("You Can not divide by 0")
     return a/b
 
 def mean_function (numbers):
