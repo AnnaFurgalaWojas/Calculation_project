@@ -6,7 +6,7 @@ def test_add_function():
     assert add_function(-1, 1) == 0
     assert add_function(0, 0) == 0
     assert add_function(-1, -1) == -2   
-    assert (2,3,4 ) == 9
+    
 
 def test_divide_function():
     assert divide_function(6, 3) == 2
