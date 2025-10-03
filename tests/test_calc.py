@@ -1,5 +1,5 @@
 import pytest
-from my_package.Calculation import add_function, divide_function, mean_function
+from calculation.Calculation import add_function, divide_function, mean_function
 
 def test_add_function():
     assert add_function(2, 3) == 5
