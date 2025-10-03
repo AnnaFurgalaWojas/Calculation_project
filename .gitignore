@@ -1,0 +1,18 @@
+# środowisko wirtualne
+.venv/
+venv/
+
+# cache Pythona
+__pycache__/
+*.pyc
+*.pyo
+
+# cache pytesta
+.pytest_cache/
+
+# pliki konfiguracyjne IDE
+.vscode/
+.idea/
+
+# pliki systemowe
+.DS_Store
